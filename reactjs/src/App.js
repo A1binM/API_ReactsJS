@@ -46,7 +46,7 @@ function App() {
         <div class="item">
           {/*variablerna inom {} ger ett värde såsom string eller bild, det läggs till i sidan*/}
           <h2>{meal.Number}</h2>
-          <h3>{meal.strMeal}.</h3>
+          <h2>{meal.strMeal}.</h3>
           <p> Kategori: {meal.strCategory}</p>
           <p>
             Hela receptet :{" "}
